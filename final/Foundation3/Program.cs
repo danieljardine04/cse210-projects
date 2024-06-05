@@ -23,6 +23,8 @@ class Program
             Console.WriteLine();
             Console.WriteLine("Now for the full event Details:");
             name.GetFullDetails(); // I made this into an abstract class and abstract methods as to not have to write everything out.
+            Console.WriteLine();
+            name.ShortDescription();
 
         }
 
